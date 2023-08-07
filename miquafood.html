@@ -1,0 +1,2105 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+  <!-- Mirrored from themes.semicolonweb.com/html/canvas/demo-construction.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 12:33:47 GMT -->
+  <!-- Added by HTTrack --><meta
+    http-equiv="content-type"
+    content="text/html;charset=utf-8"
+  /><!-- /Added by HTTrack -->
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <meta name="author" content="SemiColonWeb" />
+
+    <!-- Stylesheets
+	============================================= -->
+    <link
+      href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700|Roboto:300,400,500,700&amp;display=swap"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <link rel="stylesheet" href="css/swiper.css" type="text/css" />
+
+    <!-- Construction Demo Specific Stylesheet -->
+    <link
+      rel="stylesheet"
+      href="demos/construction/construction.css"
+      type="text/css"
+    />
+    <!-- / -->
+
+    <link rel="stylesheet" href="css/dark.css" type="text/css" />
+    <link rel="stylesheet" href="css/font-icons.css" type="text/css" />
+    <link rel="stylesheet" href="css/animate.css" type="text/css" />
+    <link rel="stylesheet" href="css/magnific-popup.css" type="text/css" />
+
+    <link
+      rel="stylesheet"
+      href="demos/construction/css/fonts.css"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="css/custom.css" type="text/css" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <link
+      rel="stylesheet"
+      href="css/colors6bbb.css?color=F18052"
+      type="text/css"
+    />
+
+    <link rel="stylesheet" href="miquafood.css" type="text/css" />
+
+    <!-- Document Title
+	============================================= -->
+    <title>Miqua Food</title>
+  </head>
+
+  <body class="stretched">
+    <!-- Document Wrapper
+	============================================= -->
+    <div id="wrapper" class="clearfix">
+      <!-- Header
+		============================================= -->
+      <header id="header" class="header-size-sm" data-sticky-shrink="false">
+        <div class="container">
+          <div class="header-row">
+            <!-- Logo
+					============================================= -->
+            <div id="logo" class="ms-auto ms-lg-0 me-lg-auto">
+              <a href="index-2.html" class="standard-logo"
+                ><img
+                  src="https://fhmvietnam.com/data/cms-image/1/logo/logo_new_dark.png"
+                  alt="FHM Logo"
+              /></a>
+              <a href="index-2.html" class="retina-logo"
+                ><img
+                  src="https://fhmvietnam.com/data/cms-image/1/logo/logo_new_dark.png"
+                  alt="FHM Logo"
+              /></a>
+            </div>
+            <!-- #logo end -->
+
+            <div class="header-misc d-none d-lg-flex">
+              <ul class="header-extras">
+                <li>
+                  <i class="i-plain icon-call m-0"></i>
+                  <div class="he-text">
+                    Hotline
+                    <span>0123 456 789</span>
+                  </div>
+                </li>
+
+                <li>
+                  <i class="i-plain icon-shopping-bag m-0"></i>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        <div id="header-wrap">
+          <div class="container">
+            <div
+              class="header-row justify-content-between flex-row-reverse flex-lg-row justify-content-lg-between"
+            >
+              <div class="header-misc">
+                <!-- Top Search
+							============================================= -->
+                <div id="top-search" class="header-misc-icon">
+                  <a href="#" id="top-search-trigger"
+                    ><i class="icon-line-search"></i
+                    ><i class="icon-line-cross"></i
+                  ></a>
+                </div>
+                <!-- #top-search end -->
+              </div>
+
+              <div id="primary-menu-trigger">
+                <svg class="svg-trigger" viewBox="0 0 100 100">
+                  <path
+                    d="m 30,33 h 40 c 3.722839,0 7.5,3.126468 7.5,8.578427 0,5.451959 -2.727029,8.421573 -7.5,8.421573 h -20"
+                  ></path>
+                  <path d="m 30,50 h 40"></path>
+                  <path
+                    d="m 70,67 h -40 c 0,0 -7.5,-0.802118 -7.5,-8.365747 0,-7.563629 7.5,-8.634253 7.5,-8.634253 h 20"
+                  ></path>
+                </svg>
+              </div>
+
+              <!-- Primary Navigation
+						============================================= -->
+              <nav class="primary-menu with-arrows">
+                <ul class="menu-container">
+                  <li class="menu-item current">
+                    <a class="menu-link" href="demo-construction.html"
+                      ><div>Trang chủ</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-construction-services.html"
+                      ><div>Về Miquafood</div></a
+                    >
+                    <ul class="sub-menu-container">
+                      <li class="menu-item">
+                        <a class="menu-link" href="#"
+                          ><div>Housing Management</div></a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="#"
+                          ><div>Construction Planning</div></a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="#"><div>Green Homes</div></a>
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="#"
+                          ><div>Architecture Design</div></a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a class="menu-link" href="#"
+                          ><div>Interior Planning</div></a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-construction-about-us.html"
+                      ><div>Sản phẩm</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-construction-projects.html"
+                      ><div>Tin tức</div></a
+                    >
+                    <ul class="sub-menu-container">
+                      <li class="menu-item">
+                        <a
+                          class="menu-link"
+                          href="demo-construction-projects-2.html"
+                          ><div>2 Columns</div></a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a
+                          class="menu-link"
+                          href="demo-construction-projects-3.html"
+                          ><div>3 Columns</div></a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a
+                          class="menu-link"
+                          href="demo-construction-projects.html"
+                          ><div>4 Columns</div></a
+                        >
+                      </li>
+                      <li class="menu-item">
+                        <a
+                          class="menu-link"
+                          href="demo-construction-projects-5.html"
+                          ><div>5 Columns</div></a
+                        >
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-construction-investors.html"
+                      ><div>Tuyển dụng</div></a
+                    >
+                  </li>
+                  <li class="menu-item">
+                    <a class="menu-link" href="demo-construction-blog.html"
+                      ><div>Liên hệ</div></a
+                    >
+                  </li>
+                </ul>
+              </nav>
+              <!-- #primary-menu end -->
+
+              <form
+                class="top-search-form"
+                action="http://themes.semicolonweb.com/html/canvas/search.html"
+                method="get"
+              >
+                <input
+                  type="text"
+                  name="q"
+                  class="form-control"
+                  value=""
+                  placeholder="Tìm kiếm.."
+                  autocomplete="off"
+                />
+              </form>
+            </div>
+          </div>
+        </div>
+        <div class="header-wrap-clone"></div>
+      </header>
+      <!-- #header end -->
+
+      <section
+        id="slider"
+        class="slider-element slider-parallax swiper_wrapper min-vh-75"
+        data-loop="true"
+      >
+        <div class="swiper-container swiper-parent">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div
+                class="swiper-slide-bg"
+                style="
+                  background-image: url('https://bizweb.dktcdn.net/100/434/011/themes/845632/assets/slide-img2.png?1690771241033');
+                  background-position: center top;
+                "
+              ></div>
+            </div>
+            <div class="swiper-slide">
+              <div
+                class="swiper-slide-bg"
+                style="
+                  background-image: url('https://bizweb.dktcdn.net/100/434/011/themes/845632/assets/slide-img1.png?1690771241033');
+                  background-position: center top;
+                "
+              ></div>
+            </div>
+          </div>
+          <div class="slider-arrow-left"><i class="icon-angle-left"></i></div>
+          <div class="slider-arrow-right"><i class="icon-angle-right"></i></div>
+        </div>
+      </section>
+
+      <!-- Content
+		============================================= -->
+      <section id="content">
+        <div class="content-wrap">
+          <div
+            class="promo promo-light promo-full promo-uppercase p-5 header-stick"
+          >
+            <div class="container">
+              <div class="row align-items-stretch col-mb-50">
+                <div class="col-lg-3 col-md-6">
+                  <div class="feature-box fbox-plain align-items-center">
+                    <div class="fbox-icon">
+                      <a href="#"
+                        ><i
+                          class="icon-shield-virus d-flex justify-content-center align-items-center"
+                        ></i
+                      ></a>
+                    </div>
+                    <div class="fbox-content p-0">
+                      <h3>Sản phẩm an toàn</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="feature-box fbox-plain align-items-center">
+                    <div class="fbox-icon">
+                      <a href="#"
+                        ><i
+                          class="icon-certificate1 d-flex justify-content-center align-items-center"
+                        ></i
+                      ></a>
+                    </div>
+                    <div class="fbox-content p-0">
+                      <h3>Chất lượng cam kết</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="feature-box fbox-plain align-items-center">
+                    <div class="fbox-icon">
+                      <a href="#"
+                        ><i
+                          class="icon-hand-holding-heart d-flex justify-content-center align-items-center"
+                        ></i
+                      ></a>
+                    </div>
+                    <div class="fbox-content p-0">
+                      <h3>Dịch vụ vượt trội</h3>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                  <div class="feature-box fbox-plain align-items-center">
+                    <div class="fbox-icon">
+                      <a href="#"
+                        ><i
+                          class="icon-truck d-flex justify-content-center align-items-center"
+                        ></i
+                      ></a>
+                    </div>
+                    <div class="fbox-content p-0">
+                      <h3>Giao hàng nhanh chóng</h3>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- START CATEGORY -->
+          <div id="home-category" class="section bg-transparent my-0">
+            <div class="container">
+              <div class="fancy-title title-bottom-border">
+                <h2 class="text-uppercase">danh mục sản phẩm</h2>
+              </div>
+
+              <div
+                id="oc-portfolio"
+                class="owl-carousel portfolio-carousel carousel-widget"
+                data-pagi="false"
+                data-items-xs="1"
+                data-items-sm="2"
+                data-items-md="3"
+                data-items-lg="4"
+              >
+                <div class="portfolio-item">
+                  <a href="#">
+                    <div class="category-item">
+                      <p class="category-item-text">Thịt trứng</p>
+                      <div class="category-item-img">
+                        <img
+                          src="https://bizweb.dktcdn.net/thumb/compact/100/434/011/collections/untitled-design-2.png?v=1639500775663"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="portfolio-item">
+                  <a href="#">
+                    <div class="category-item">
+                      <p class="category-item-text">Hải sản</p>
+                      <div class="category-item-img">
+                        <img
+                          src="https://bizweb.dktcdn.net/thumb/compact/100/434/011/collections/untitled-design-3.png?v=1639501059257"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="portfolio-item">
+                  <a href="#">
+                    <div class="category-item">
+                      <p class="category-item-text">Rau củ</p>
+                      <div class="category-item-img">
+                        <img
+                          src="https://bizweb.dktcdn.net/thumb/compact/100/434/011/collections/1-21212-original.png?v=1639500389063"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="portfolio-item">
+                  <a href="#">
+                    <div class="category-item">
+                      <p class="category-item-text">Trái cây</p>
+                      <div class="category-item-img">
+                        <img
+                          src="https://bizweb.dktcdn.net/thumb/compact/100/434/011/collections/2-50732-original.png?v=1639500398340"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="portfolio-item">
+                  <a href="#">
+                    <div class="category-item">
+                      <p class="category-item-text">Thịt trứng</p>
+                      <div class="category-item-img">
+                        <img
+                          src="https://bizweb.dktcdn.net/thumb/compact/100/434/011/collections/untitled-design-2.png?v=1639500775663"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+                <div class="portfolio-item">
+                  <a href="#">
+                    <div class="category-item">
+                      <p class="category-item-text">Thịt trứng</p>
+                      <div class="category-item-img">
+                        <img
+                          src="https://bizweb.dktcdn.net/thumb/compact/100/434/011/collections/untitled-design-2.png?v=1639500775663"
+                          alt=""
+                        />
+                      </div>
+                    </div>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END CATEGORY -->
+
+          <!-- START FLASH SALE -->
+          <div id="home-flash-sale" class="section bg-transparent my-0">
+            <div class="container">
+              <div class="fancy-title title-bottom-border">
+                <h2 class="text-uppercase">flash sale</h2>
+              </div>
+              <div
+                id="oc-products"
+                class="owl-carousel products-carousel carousel-widget"
+                data-pagi="false"
+                data-items-xs="1"
+                data-items-sm="2"
+                data-items-md="3"
+                data-items-lg="5"
+              >
+                <div class="oc-item">
+                  <div class="product">
+                    <div class="product-image">
+                      <a href="#"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                          alt="Cam canh Hà Giang"
+                      /></a>
+                      <a href="#"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                          alt="Cam canh Hà Giang"
+                      /></a>
+                      <div class="sale-flash badge bg-success p-2">-10%</div>
+                      <div class="bg-overlay">
+                        <div
+                          class="bg-overlay-content align-items-end justify-content-between"
+                          data-hover-animate="fadeIn"
+                          data-hover-speed="400"
+                        >
+                          <a href="#" class="btn btn-dark me-2"
+                            ><i class="icon-shopping-basket"></i
+                          ></a>
+                          <a
+                            href="include/ajax/shop-item.html"
+                            class="btn btn-dark"
+                            data-lightbox="ajax"
+                            ><i class="icon-line-expand"></i
+                          ></a>
+                        </div>
+                        <div class="bg-overlay-bg bg-transparent"></div>
+                      </div>
+                    </div>
+                    <div class="product-desc">
+                      <div class="product-title">
+                        <h3><a href="#">Cam canh Hà Giang</a></h3>
+                      </div>
+                      <div class="product-price">
+                        <ins>$11.99</ins> <del>$19.99</del>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="oc-item">
+                  <div class="product">
+                    <div class="product-image">
+                      <a href="#"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                          alt="Cam canh Hà Giang"
+                      /></a>
+                      <a href="#"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                          alt="Cam canh Hà Giang"
+                      /></a>
+                      <div class="sale-flash badge bg-success p-2">-10%</div>
+                      <div class="bg-overlay">
+                        <div
+                          class="bg-overlay-content align-items-end justify-content-between"
+                          data-hover-animate="fadeIn"
+                          data-hover-speed="400"
+                        >
+                          <a href="#" class="btn btn-dark me-2"
+                            ><i class="icon-shopping-basket"></i
+                          ></a>
+                          <a
+                            href="include/ajax/shop-item.html"
+                            class="btn btn-dark"
+                            data-lightbox="ajax"
+                            ><i class="icon-line-expand"></i
+                          ></a>
+                        </div>
+                        <div class="bg-overlay-bg bg-transparent"></div>
+                      </div>
+                    </div>
+                    <div class="product-desc">
+                      <div class="product-title">
+                        <h3><a href="#">Cam canh Hà Giang</a></h3>
+                      </div>
+                      <div class="product-price">
+                        <ins>$11.99</ins> <del>$19.99</del>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="oc-item">
+                  <div class="product">
+                    <div class="product-image">
+                      <a href="#"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                          alt="Cam canh Hà Giang"
+                      /></a>
+                      <a href="#"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                          alt="Cam canh Hà Giang"
+                      /></a>
+                      <div class="sale-flash badge bg-success p-2">-10%</div>
+                      <div class="bg-overlay">
+                        <div
+                          class="bg-overlay-content align-items-end justify-content-between"
+                          data-hover-animate="fadeIn"
+                          data-hover-speed="400"
+                        >
+                          <a href="#" class="btn btn-dark me-2"
+                            ><i class="icon-shopping-basket"></i
+                          ></a>
+                          <a
+                            href="include/ajax/shop-item.html"
+                            class="btn btn-dark"
+                            data-lightbox="ajax"
+                            ><i class="icon-line-expand"></i
+                          ></a>
+                        </div>
+                        <div class="bg-overlay-bg bg-transparent"></div>
+                      </div>
+                    </div>
+                    <div class="product-desc">
+                      <div class="product-title">
+                        <h3><a href="#">Cam canh Hà Giang</a></h3>
+                      </div>
+                      <div class="product-price">
+                        <ins>$11.99</ins> <del>$19.99</del>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="oc-item">
+                  <div class="product">
+                    <div class="product-image">
+                      <a href="#"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                          alt="Cam canh Hà Giang"
+                      /></a>
+                      <a href="#"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                          alt="Cam canh Hà Giang"
+                      /></a>
+                      <div class="sale-flash badge bg-success p-2">-10%</div>
+                      <div class="bg-overlay">
+                        <div
+                          class="bg-overlay-content align-items-end justify-content-between"
+                          data-hover-animate="fadeIn"
+                          data-hover-speed="400"
+                        >
+                          <a href="#" class="btn btn-dark me-2"
+                            ><i class="icon-shopping-basket"></i
+                          ></a>
+                          <a
+                            href="include/ajax/shop-item.html"
+                            class="btn btn-dark"
+                            data-lightbox="ajax"
+                            ><i class="icon-line-expand"></i
+                          ></a>
+                        </div>
+                        <div class="bg-overlay-bg bg-transparent"></div>
+                      </div>
+                    </div>
+                    <div class="product-desc">
+                      <div class="product-title">
+                        <h3><a href="#">Cam canh Hà Giang</a></h3>
+                      </div>
+                      <div class="product-price">
+                        <ins>$11.99</ins> <del>$19.99</del>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="oc-item">
+                  <div class="product">
+                    <div class="product-image">
+                      <a href="#"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                          alt="Cam canh Hà Giang"
+                      /></a>
+                      <a href="#"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                          alt="Cam canh Hà Giang"
+                      /></a>
+                      <div class="sale-flash badge bg-success p-2">-10%</div>
+                      <div class="bg-overlay">
+                        <div
+                          class="bg-overlay-content align-items-end justify-content-between"
+                          data-hover-animate="fadeIn"
+                          data-hover-speed="400"
+                        >
+                          <a href="#" class="btn btn-dark me-2"
+                            ><i class="icon-shopping-basket"></i
+                          ></a>
+                          <a
+                            href="include/ajax/shop-item.html"
+                            class="btn btn-dark"
+                            data-lightbox="ajax"
+                            ><i class="icon-line-expand"></i
+                          ></a>
+                        </div>
+                        <div class="bg-overlay-bg bg-transparent"></div>
+                      </div>
+                    </div>
+                    <div class="product-desc">
+                      <div class="product-title">
+                        <h3><a href="#">Cam canh Hà Giang</a></h3>
+                      </div>
+                      <div class="product-price">
+                        <ins>$11.99</ins> <del>$19.99</del>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END FLASH SALE -->
+
+          <!-- START PROMBO BOX -->
+          <div id="home-promo-box" class="section bg-transparent my-0 py-0">
+            <div class="container">
+              <a href="#">
+                <div class="promo-box-img">
+                  <img
+                    src="https://bizweb.dktcdn.net/100/434/011/themes/845632/assets/banner4_1.jpg?1690771241033"
+                    alt=""
+                  />
+                </div>
+              </a>
+            </div>
+          </div>
+          <!-- END PROMBO BOX -->
+
+          <!-- START PRODUCT -->
+          <div class="home-product section bg-transparent my-0">
+            <div class="container">
+              <div class="fancy-title title-bottom-border">
+                <h2 class="text-uppercase d-flex">
+                  thịt bò
+                  <a href="#" class="button ms-auto">Xem thêm</a>
+                </h2>
+              </div>
+              <div class="product-list">
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 col-12">
+                    <div class="product-list-img">
+                      <img
+                        src="https://bizweb.dktcdn.net/100/434/011/themes/845632/assets/bn_pr_3.png?1690771241033"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-9 col-md-9 col-12">
+                    <div
+                      id="oc-products"
+                      class="owl-carousel products-carousel carousel-widget"
+                      data-pagi="false"
+                      data-items-xs="1"
+                      data-items-sm="2"
+                      data-items-md="3"
+                      data-items-lg="5"
+                    >
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="home-product section bg-transparent my-0">
+            <div class="container">
+              <div class="fancy-title title-bottom-border">
+                <h2 class="text-uppercase d-flex">
+                  thịt bò
+                  <a href="#" class="button ms-auto">Xem thêm</a>
+                </h2>
+              </div>
+              <div class="product-list">
+                <div class="row flex-row-reverse">
+                  <div class="col-lg-3 col-md-3 col-12">
+                    <div class="product-list-img">
+                      <img
+                        src="https://bizweb.dktcdn.net/100/434/011/themes/845632/assets/bn_pr_3.png?1690771241033"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-9 col-md-9 col-12">
+                    <div
+                      id="oc-products"
+                      class="owl-carousel products-carousel carousel-widget"
+                      data-pagi="false"
+                      data-items-xs="1"
+                      data-items-sm="2"
+                      data-items-md="3"
+                      data-items-lg="5"
+                    >
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="home-product section bg-transparent my-0">
+            <div class="container">
+              <div class="fancy-title title-bottom-border">
+                <h2 class="text-uppercase d-flex">
+                  thịt bò
+                  <a href="#" class="button ms-auto">Xem thêm</a>
+                </h2>
+              </div>
+              <div class="product-list">
+                <div class="row">
+                  <div class="col-lg-3 col-md-3 col-12">
+                    <div class="product-list-img">
+                      <img
+                        src="https://bizweb.dktcdn.net/100/434/011/themes/845632/assets/bn_pr_3.png?1690771241033"
+                        alt=""
+                      />
+                    </div>
+                  </div>
+                  <div class="col-lg-9 col-md-9 col-12">
+                    <div
+                      id="oc-products"
+                      class="owl-carousel products-carousel carousel-widget"
+                      data-pagi="false"
+                      data-items-xs="1"
+                      data-items-sm="2"
+                      data-items-md="3"
+                      data-items-lg="5"
+                    >
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="oc-item">
+                        <div class="product">
+                          <div class="product-image">
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <a href="#"
+                              ><img
+                                src="https://bizweb.dktcdn.net/thumb/large/100/434/011/products/6-73706-1635163956.jpg?v=1640272762203"
+                                alt="Cam canh Hà Giang"
+                            /></a>
+                            <div class="sale-flash badge bg-success p-2">
+                              -10%
+                            </div>
+                            <div class="bg-overlay">
+                              <div
+                                class="bg-overlay-content align-items-end justify-content-between"
+                                data-hover-animate="fadeIn"
+                                data-hover-speed="400"
+                              >
+                                <a href="#" class="btn btn-dark me-2"
+                                  ><i class="icon-shopping-basket"></i
+                                ></a>
+                                <a
+                                  href="include/ajax/shop-item.html"
+                                  class="btn btn-dark"
+                                  data-lightbox="ajax"
+                                  ><i class="icon-line-expand"></i
+                                ></a>
+                              </div>
+                              <div class="bg-overlay-bg bg-transparent"></div>
+                            </div>
+                          </div>
+                          <div class="product-desc">
+                            <div class="product-title">
+                              <h3><a href="#">Cam canh Hà Giang</a></h3>
+                            </div>
+                            <div class="product-price">
+                              <ins>$11.99</ins> <del>$19.99</del>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END PRODUCT -->
+
+          <!-- START VIDEO -->
+          <div id="home-video" class="section bg-transparent my-0">
+            <div class="container">
+              <div class="fancy-title title-bottom-border">
+                <h2 class="text-uppercase d-flex">
+                  Video
+                  <a href="#" class="button ms-auto">Xem thêm</a>
+                </h2>
+              </div>
+              <div class="video-list">
+                <div
+                  id="oc-posts"
+                  class="owl-carousel posts-carousel carousel-widget posts-md"
+                  data-pagi="false"
+                  data-items-xs="1"
+                  data-items-sm="2"
+                  data-items-md="3"
+                  data-items-lg="4"
+                >
+                  <div class="oc-item">
+                    <div class="entry">
+                      <div class="entry-image">
+                        <iframe
+                          width="560"
+                          height="315"
+                          src="https://www.youtube.com/embed/UZ5o_MEZX6A"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                      <div class="entry-title title-xs nott">
+                        <h3>
+                          <a href="blog-single-full.html"
+                            >Thịt Heo Chiên Nước Mắm Cực Ngon Cực...</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="oc-item">
+                    <div class="entry">
+                      <div class="entry-image">
+                        <iframe
+                          width="560"
+                          height="315"
+                          src="https://www.youtube.com/embed/UZ5o_MEZX6A"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                      <div class="entry-title title-xs nott">
+                        <h3>
+                          <a href="blog-single-full.html"
+                            >Thịt Heo Chiên Nước Mắm Cực Ngon Cực...</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="oc-item">
+                    <div class="entry">
+                      <div class="entry-image">
+                        <iframe
+                          width="560"
+                          height="315"
+                          src="https://www.youtube.com/embed/UZ5o_MEZX6A"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                      <div class="entry-title title-xs nott">
+                        <h3>
+                          <a href="blog-single-full.html"
+                            >Thịt Heo Chiên Nước Mắm Cực Ngon Cực...</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="oc-item">
+                    <div class="entry">
+                      <div class="entry-image">
+                        <iframe
+                          width="560"
+                          height="315"
+                          src="https://www.youtube.com/embed/UZ5o_MEZX6A"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                      <div class="entry-title title-xs nott">
+                        <h3>
+                          <a href="blog-single-full.html"
+                            >Thịt Heo Chiên Nước Mắm Cực Ngon Cực...</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="oc-item">
+                    <div class="entry">
+                      <div class="entry-image">
+                        <iframe
+                          width="560"
+                          height="315"
+                          src="https://www.youtube.com/embed/UZ5o_MEZX6A"
+                          allowfullscreen
+                        ></iframe>
+                      </div>
+                      <div class="entry-title title-xs nott">
+                        <h3>
+                          <a href="blog-single-full.html"
+                            >Thịt Heo Chiên Nước Mắm Cực Ngon Cực...</a
+                          >
+                        </h3>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END VIDEO -->
+
+          <!-- START TESTIMONIALS -->
+          <div id="home-testimonials" class="section bg-transparent my-0">
+            <div class="container">
+              <div class="fancy-title title-bottom-border">
+                <h2 class="text-uppercase">ý kiến khách hàng</h2>
+              </div>
+              <div
+                id="oc-testi"
+                class="owl-carousel testimonials-carousel carousel-widget"
+                data-margin="20"
+                data-items-sm="1"
+                data-items-md="2"
+                data-items-xl="3"
+              >
+                <div class="oc-item">
+                  <div class="testimonial">
+                    <div class="testi-image">
+                      <a href="#"
+                        ><img
+                          src="images/testimonials/1.jpg"
+                          alt="Customer Testimonails"
+                      /></a>
+                    </div>
+                    <div class="testi-content">
+                      <p>
+                        Incidunt deleniti blanditiis quas aperiam recusandae
+                        consequatur ullam quibusdam cum libero illo rerum
+                        repellendus!
+                      </p>
+                      <div class="testi-meta">
+                        John Doe
+                        <span>XYZ Inc.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="oc-item">
+                  <div class="testimonial">
+                    <div class="testi-image">
+                      <a href="#"
+                        ><img
+                          src="images/testimonials/2.jpg"
+                          alt="Customer Testimonails"
+                      /></a>
+                    </div>
+                    <div class="testi-content">
+                      <p>
+                        Natus voluptatum enim quod necessitatibus quis expedita
+                        harum provident eos obcaecati id culpa corporis
+                        molestias.
+                      </p>
+                      <div class="testi-meta">
+                        Collis Ta'eed
+                        <span>Envato Inc.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="oc-item">
+                  <div class="testimonial">
+                    <div class="testi-image">
+                      <a href="#"
+                        ><img
+                          src="images/testimonials/7.jpg"
+                          alt="Customer Testimonails"
+                      /></a>
+                    </div>
+                    <div class="testi-content">
+                      <p>
+                        Fugit officia dolor sed harum excepturi ex iusto magnam
+                        asperiores molestiae qui natus obcaecati facere sint
+                        amet.
+                      </p>
+                      <div class="testi-meta">
+                        Mary Jane
+                        <span>Google Inc.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="oc-item">
+                  <div class="testimonial">
+                    <div class="testi-image">
+                      <a href="#"
+                        ><img
+                          src="images/testimonials/3.jpg"
+                          alt="Customer Testimonails"
+                      /></a>
+                    </div>
+                    <div class="testi-content">
+                      <p>
+                        Similique fugit repellendus expedita excepturi iure
+                        perferendis provident quia eaque. Repellendus, vero
+                        numquam?
+                      </p>
+                      <div class="testi-meta">
+                        Steve Jobs
+                        <span>Apple Inc.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="oc-item">
+                  <div class="testimonial">
+                    <div class="testi-image">
+                      <a href="#"
+                        ><img
+                          src="images/testimonials/4.jpg"
+                          alt="Customer Testimonails"
+                      /></a>
+                    </div>
+                    <div class="testi-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Minus, perspiciatis illum totam dolore deleniti
+                        labore.
+                      </p>
+                      <div class="testi-meta">
+                        Jamie Morrison
+                        <span>Adobe Inc.</span>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END TESTIMONIALS -->
+
+          <!-- START BLOG -->
+          <div id="home-blog" class="section bg-transparent my-0">
+            <div class="container">
+              <div class="fancy-title title-bottom-border">
+                <h2 class="text-uppercase d-flex">
+                  Video
+                  <a href="#" class="button ms-auto">Xem thêm</a>
+                </h2>
+              </div>
+              <div
+                id="oc-posts"
+                class="owl-carousel posts-carousel carousel-widget posts-md"
+                data-pagi="false"
+                data-items-xs="1"
+                data-items-sm="2"
+                data-items-md="3"
+                data-items-lg="4"
+              >
+                <div class="oc-item">
+                  <div class="entry">
+                    <div class="entry-image">
+                      <a
+                        href="images/portfolio/full/17.html"
+                        data-lightbox="image"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/articles/untitled-design-8-1-5.jpg?v=1640277188903"
+                          alt="Standard Post with Image"
+                      /></a>
+                    </div>
+                    <div class="entry-title title-xs nott">
+                      <h3>
+                        <a href="blog-single.html"
+                          >Hướng dẫn 5 cách làm món cá hồi sốt vừa..</a
+                        >
+                      </h3>
+                    </div>
+                    <div class="entry-meta">
+                      <ul>
+                        <li><i class="icon-calendar3"></i> 20/07/2023</li>
+                        <li>
+                          <a href="blog-single.html#comments"
+                            ><i class="icon-comments"></i> 13</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="entry-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Cupiditate, asperiores quod est tenetur in.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="oc-item">
+                  <div class="entry">
+                    <div class="entry-image">
+                      <a
+                        href="images/portfolio/full/17.html"
+                        data-lightbox="image"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/articles/untitled-design-8-1-5.jpg?v=1640277188903"
+                          alt="Standard Post with Image"
+                      /></a>
+                    </div>
+                    <div class="entry-title title-xs nott">
+                      <h3>
+                        <a href="blog-single.html"
+                          >Hướng dẫn 5 cách làm món cá hồi sốt vừa..</a
+                        >
+                      </h3>
+                    </div>
+                    <div class="entry-meta">
+                      <ul>
+                        <li><i class="icon-calendar3"></i> 20/07/2023</li>
+                        <li>
+                          <a href="blog-single.html#comments"
+                            ><i class="icon-comments"></i> 13</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="entry-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Cupiditate, asperiores quod est tenetur in.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="oc-item">
+                  <div class="entry">
+                    <div class="entry-image">
+                      <a
+                        href="images/portfolio/full/17.html"
+                        data-lightbox="image"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/articles/untitled-design-8-1-5.jpg?v=1640277188903"
+                          alt="Standard Post with Image"
+                      /></a>
+                    </div>
+                    <div class="entry-title title-xs nott">
+                      <h3>
+                        <a href="blog-single.html"
+                          >Hướng dẫn 5 cách làm món cá hồi sốt vừa..</a
+                        >
+                      </h3>
+                    </div>
+                    <div class="entry-meta">
+                      <ul>
+                        <li><i class="icon-calendar3"></i> 20/07/2023</li>
+                        <li>
+                          <a href="blog-single.html#comments"
+                            ><i class="icon-comments"></i> 13</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="entry-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Cupiditate, asperiores quod est tenetur in.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="oc-item">
+                  <div class="entry">
+                    <div class="entry-image">
+                      <a
+                        href="images/portfolio/full/17.html"
+                        data-lightbox="image"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/articles/untitled-design-8-1-5.jpg?v=1640277188903"
+                          alt="Standard Post with Image"
+                      /></a>
+                    </div>
+                    <div class="entry-title title-xs nott">
+                      <h3>
+                        <a href="blog-single.html"
+                          >Hướng dẫn 5 cách làm món cá hồi sốt vừa..</a
+                        >
+                      </h3>
+                    </div>
+                    <div class="entry-meta">
+                      <ul>
+                        <li><i class="icon-calendar3"></i> 20/07/2023</li>
+                        <li>
+                          <a href="blog-single.html#comments"
+                            ><i class="icon-comments"></i> 13</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="entry-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Cupiditate, asperiores quod est tenetur in.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="oc-item">
+                  <div class="entry">
+                    <div class="entry-image">
+                      <a
+                        href="images/portfolio/full/17.html"
+                        data-lightbox="image"
+                        ><img
+                          src="https://bizweb.dktcdn.net/thumb/large/100/434/011/articles/untitled-design-8-1-5.jpg?v=1640277188903"
+                          alt="Standard Post with Image"
+                      /></a>
+                    </div>
+                    <div class="entry-title title-xs nott">
+                      <h3>
+                        <a href="blog-single.html"
+                          >Hướng dẫn 5 cách làm món cá hồi sốt vừa..</a
+                        >
+                      </h3>
+                    </div>
+                    <div class="entry-meta">
+                      <ul>
+                        <li><i class="icon-calendar3"></i> 20/07/2023</li>
+                        <li>
+                          <a href="blog-single.html#comments"
+                            ><i class="icon-comments"></i> 13</a
+                          >
+                        </li>
+                      </ul>
+                    </div>
+                    <div class="entry-content">
+                      <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Cupiditate, asperiores quod est tenetur in.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- END BLOG -->
+        </div>
+      </section>
+      <!-- #content end -->
+
+      <!-- Footer
+		============================================= -->
+      <footer id="footer" class="dark">
+        <div class="container">
+          <!-- Footer Widgets
+				============================================= -->
+          <div class="footer-widgets-wrap">
+            <div class="row">
+              <div class="col-lg-9">
+                <div class="widget clearfix">
+                  <img
+                    src="https://fhmvietnam.com/data/cms-image/1/logo/logo_new_dark.png"
+                    alt="Image"
+                    class="alignleft"
+                    style="
+                      margin-top: 8px;
+                      padding-right: 18px;
+                      border-right: 1px solid #4a4a4a;
+                      max-width: 140px;
+                    "
+                  />
+
+                  <p>
+                    We believe in <strong>Simple</strong>,
+                    <strong>Creative</strong> &amp;
+                    <strong>Flexible</strong> Design Standards with a Retina
+                    &amp; Responsive Approach. Browse the amazing Features this
+                    template offers.
+                  </p>
+
+                  <div class="line" style="margin: 30px 0"></div>
+
+                  <div class="row col-mb-30">
+                    <div class="col-lg-3 col-6 widget_links">
+                      <ul>
+                        <li><a href="#">Về Miqua Food</a></li>
+                        <li><a href="#">Tuyển dụng nhân sự</a></li>
+                        <li><a href="#">Giá trị cốt lõi</a></li>
+                        <li><a href="#">Nguồn gốc thực phẩm</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-6 widget_links">
+                      <ul>
+                        <li><a href="#">Về Miqua Food</a></li>
+                        <li><a href="#">Tuyển dụng nhân sự</a></li>
+                        <li><a href="#">Giá trị cốt lõi</a></li>
+                        <li><a href="#">Nguồn gốc thực phẩm</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-6 widget_links">
+                      <ul>
+                        <li><a href="#">Về Miqua Food</a></li>
+                        <li><a href="#">Tuyển dụng nhân sự</a></li>
+                        <li><a href="#">Giá trị cốt lõi</a></li>
+                        <li><a href="#">Nguồn gốc thực phẩm</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                      </ul>
+                    </div>
+
+                    <div class="col-lg-3 col-6 widget_links">
+                      <ul>
+                        <li><a href="#">Về Miqua Food</a></li>
+                        <li><a href="#">Tuyển dụng nhân sự</a></li>
+                        <li><a href="#">Giá trị cốt lõi</a></li>
+                        <li><a href="#">Nguồn gốc thực phẩm</a></li>
+                        <li><a href="#">Liên hệ</a></li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-3 mt-5 mt-lg-0">
+                <div class="widget clearfix">
+                  <div
+                    style="
+                      background: url('images/world-map.png') no-repeat center
+                        center;
+                      background-size: 100%;
+                    "
+                  >
+                    <address>
+                      <strong>Địa chỉ:</strong><br />
+                      2/25 Thọ Tháp, Dịch Vọng<br />
+                      Cầu Giấy, Hà Nội<br />
+                    </address>
+                    <abbr title="Phone Number"
+                      ><strong>Điện thoại:</strong></abbr
+                    >
+                    0123 456 789<br />
+                    <abbr title="Email Address"><strong>Email:</strong></abbr>
+                    fhmvietnam@gmail.com
+                  </div>
+                </div>
+
+                <div class="widget subscribe-widget clearfix">
+                  <div class="row col-mb-30">
+                    <div class="col-12 col-sm-6 clearfix">
+                      <a
+                        href="#"
+                        class="social-icon si-dark si-colored si-facebook mb-0"
+                        style="margin-right: 10px"
+                      >
+                        <i class="icon-facebook"></i>
+                        <i class="icon-facebook"></i>
+                      </a>
+                      <a href="#"
+                        ><small style="display: block; margin-top: 3px"
+                          ><strong>Theo dõi</strong><br />trên Facebook</small
+                        ></a
+                      >
+                    </div>
+                    <div class="col-12 col-sm-6 clearfix">
+                      <a
+                        href="#"
+                        class="social-icon si-dark si-colored si-rss mb-0"
+                        style="margin-right: 10px"
+                      >
+                        <i class="icon-rss"></i>
+                        <i class="icon-rss"></i>
+                      </a>
+                      <a href="#"
+                        ><small style="display: block; margin-top: 3px"
+                          ><strong>Đăng kí</strong><br />RSS Feeds</small
+                        ></a
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- .footer-widgets-wrap end -->
+        </div>
+
+        <!-- Copyrights
+			============================================= -->
+        <div id="copyrights">
+          <div class="container">
+            <div class="row justify-content-between col-mb-30">
+              <div class="col-12 col-md-auto text-center text-md-start">
+                Copyrights &copy; 2023 Bản quyền thuộc về FHM Việt Nam.<br />
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- #copyrights end -->
+      </footer>
+      <!-- #footer end -->
+    </div>
+    <!-- #wrapper end -->
+
+    <!-- Go To Top
+	============================================= -->
+    <div id="gotoTop" class="icon-angle-up"></div>
+
+    <!-- JavaScripts
+	============================================= -->
+    <script src="js/jquery.js"></script>
+    <script src="js/plugins.min.js"></script>
+
+    <!-- Footer Scripts
+	============================================= -->
+    <script src="js/functions.js"></script>
+
+    <script src="./app.js"></script>
+  </body>
+
+  <!-- Mirrored from themes.semicolonweb.com/html/canvas/demo-construction.html by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 01 Aug 2021 12:38:30 GMT -->
+</html>

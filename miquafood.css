@@ -1,0 +1,290 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+:root {
+  --main-color: #2e9f3c;
+  --yellow: #ffc107;
+}
+
+#content p {
+  margin-bottom: 0;
+}
+
+#logo img {
+  height: 70px;
+  padding: 10px 0;
+}
+
+div + #header-wrap,
+.sticky-header #header-wrap,
+.top-cart-number::before,
+#page-menu-wrap,
+.page-menu-nav,
+.control-solid .flex-control-nav li:hover a,
+.control-solid .flex-control-nav li a.flex-active,
+.grid-filter li.activeFilter a,
+.grid-filter.style-4 li.activeFilter a::after,
+.grid-shuffle:hover,
+.entry-link:hover,
+.button,
+.button.button-dark:hover,
+.button.button-3d:hover,
+.fbox-icon i,
+.fbox-icon img,
+.fbox-effect.fbox-dark .fbox-icon i:hover,
+.fbox-effect.fbox-dark:hover .fbox-icon i,
+.fbox-border.fbox-effect.fbox-dark .fbox-icon i::after,
+.i-rounded:hover,
+.i-circled:hover,
+.tab-nav.tab-nav2 li.ui-state-active a,
+.testimonial .flex-control-nav li a,
+.skills li .progress,
+.owl-carousel .owl-dots .owl-dot,
+#gotoTop:hover,
+input.switch-toggle-round:checked + label::before,
+input.switch-toggle-flat:checked + label,
+input.switch-toggle-flat:checked + label::after,
+.nav-pills > li.active > a,
+.nav-pills > li.active > a:hover,
+.nav-pills > li.active > a:focus,
+input.switch-toggle-round:checked + label::before,
+input.switch-toggle-flat:checked + label,
+input.switch-toggle-flat:checked + label::after,
+.dark .entry-link:hover,
+.dark .fbox-effect.fbox-dark .fbox-icon i:hover,
+.dark .fbox-effect.fbox-dark:hover .fbox-icon i,
+.dark .fbox-border.fbox-effect.fbox-dark .fbox-icon i::after,
+.dark .i-rounded:hover,
+.dark .i-circled:hover,
+.dark .tab-nav.tab-nav2 li.ui-state-active a,
+.dark #gotoTop:hover,
+.dark input.switch-toggle-round:checked + label::before,
+.dark input.switch-toggle-flat:checked + label,
+.dark input.switch-toggle-flat:checked + label::after {
+  background-color: var(--main-color);
+}
+
+.owl-carousel .owl-nav [class*="owl-"]:hover {
+  background-color: var(--main-color) !important;
+}
+.top-search-form input,
+.header-misc-icon > a,
+.menu-link,
+.top-search-form input,
+.top-search-form input::placeholder,
+.form-control:focus {
+  color: #fff;
+}
+
+a,
+h1 > span:not(.nocolor):not(.badge),
+h2 > span:not(.nocolor):not(.badge),
+h3 > span:not(.nocolor):not(.badge),
+h4 > span:not(.nocolor):not(.badge),
+h5 > span:not(.nocolor):not(.badge),
+h6 > span:not(.nocolor):not(.badge),
+.menu-item:hover > .menu-link,
+.menu-item.current > .menu-link,
+.dark .menu-item:hover > .menu-link,
+.dark .menu-item.current > .menu-link,
+.top-cart-item-desc a:hover,
+.top-cart-action .top-checkout-price,
+.breadcrumb a:hover,
+.grid-filter li:not(.activeFilter) a:hover,
+.portfolio-desc h3 a:hover,
+#portfolio-navigation a:hover,
+.entry-title h2 a:hover,
+.entry-title h4 a:hover,
+.post-timeline .entry:hover .entry-timeline,
+.post-timeline .entry:hover .timeline-divider,
+.comment-content .comment-author a:hover,
+.product-title h3 a:hover,
+.single-product .product-title h2 a:hover,
+.single-product .product-price,
+.process-steps li.active h5,
+.process-steps li.ui-tabs-active h5,
+.tab-nav-lg li.ui-tabs-active a,
+.team-title span,
+.btn-link,
+.page-link,
+.page-link:hover,
+.page-link:focus,
+.fbox-plain .fbox-icon img,
+.fbox-border .fbox-icon i,
+.fbox-border .fbox-icon img,
+.iconlist > li [class^="icon-"]:first-child,
+.dark .menu-item:hover > .menu-link,
+.dark .menu-item.current > .menu-link,
+.dark .top-cart-item-desc a:hover,
+.dark .breadcrumb a:hover,
+.dark .portfolio-desc h3 a:hover,
+.dark #portfolio-navigation a:hover,
+.dark .entry-title h2 a:hover,
+.dark .entry-title h3 a:hover,
+.dark .entry-title h4 a:hover,
+.dark .product-title h3 a:hover,
+.dark .single-product .product-title h2 a:hover,
+.dark .product-price ins,
+.dark .tab-nav-lg li.ui-tabs-active a {
+  color: var(--yellow);
+}
+
+.entry-title h3 a:hover,
+.product-price ins,
+.product-title h3 a:hover,
+.fbox-plain .fbox-icon i,
+.header-extras li i,
+.header-extras li .he-text span,
+.sub-menu-container .menu-item:hover > .menu-link,
+.mega-menu-style-2 .mega-menu-title > .menu-link:hover,
+.dark .mega-menu-style-2 .mega-menu-title:hover > .menu-link {
+  color: var(--main-color);
+}
+
+.more-link,
+.tabs-bb .tab-nav li.ui-tabs-active a,
+.title-bottom-border h1,
+.title-bottom-border h2,
+.title-bottom-border h3,
+.title-bottom-border h4,
+.title-bottom-border h5,
+.title-bottom-border h6 {
+  border-color: var(--main-color);
+}
+
+.sub-menu-container,
+.mega-menu-content,
+.style-6 .menu-container > .menu-item > .menu-link::after,
+.style-6 .menu-container > .menu-item.current > .menu-link::after,
+.top-cart-content,
+.dark .sub-menu-container,
+.dark .mega-menu-content,
+.dark .top-cart-content {
+  border-top-color: var(--main-color);
+}
+
+.product-title h3 a,
+.single-product .product-title h2 a {
+  font-size: 16px;
+}
+
+/* START CATEGORY */
+#home-category .category-item {
+  background-color: var(--main-color);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px;
+  padding-left: 20px;
+  border-radius: 10px;
+  min-height: 200px;
+}
+
+#home-category .category-item:hover .category-item-img {
+  transform: scale(1.1);
+}
+
+#home-category .category-item .category-item-text {
+  margin-bottom: 0;
+  font-size: 20px;
+  color: #fff;
+}
+
+#home-category .category-item .category-item-img {
+  width: 150px;
+  transition: all ease 0.5s;
+}
+
+#home-category .category-item .category-item-img img {
+  width: 100%;
+}
+
+/* END CATEGORY */
+
+/* START FLASH SALE */
+#home-flash-sale .oc-item {
+  padding: 10px;
+  padding-bottom: 0;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+}
+
+/* END FLASH SALE */
+
+/* START PROMO BOX */
+#home-promo-box .promo-box-img {
+  border-radius: 10px;
+  width: 100%;
+  overflow: hidden;
+}
+
+#home-promo-box .promo-box-img img {
+  width: 100%;
+}
+
+/* END PROMO BOX */
+
+/* START PRODUCT */
+.home-product .oc-item {
+  padding: 10px;
+  padding-bottom: 0;
+  border: 1px solid #bbb;
+  border-radius: 10px;
+}
+
+.home-product .product-list-img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.home-product .product-list-img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+/* END PRODUCT */
+
+/* START VIDEO */
+#home-video .entry .entry-image {
+  border-radius: 10px;
+  overflow: hidden;
+}
+/* END VIDEO */
+
+/* START TESTIMONIALS */
+#home-testimonials .testi-content p {
+  font-size: 16px;
+}
+/* END TESTIMONIALS */
+
+/* START BLOG */
+#home-blog .entry-content p {
+  font-size: 14px;
+}
+
+#home-blog .entry-title h2 a,
+#home-blog .entry-title h3 a,
+#home-blog .entry-title h4 a {
+  font-size: 16px;
+}
+/* END BLOG */
+
+/* START FOOTER */
+#footer {
+  background-color: var(--main-color) !important;
+}
+/* END FOOTER */
+
+/* START REPSONSIVE */
+@media (max-width: 992px) {
+  .svg-trigger path {
+    stroke: #fff;
+  }
+}
+@media (max-width: 576px) {
+  .home-product .product-list-img {
+    display: none;
+  }
+}
+/* END REPSONSIVE */
